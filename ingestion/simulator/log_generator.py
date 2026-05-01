@@ -114,7 +114,6 @@ def main():
         if args.output != "-":
             out.close()
 
-    total_anomalies = 0  # approximate — printed to stderr for visibility
     print(
         f"[generator] Done — {args.count} events written "
         f"(~{args.anomaly_rate:.0%} anomaly rate)",
