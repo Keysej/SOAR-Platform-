@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# ML artifacts
+ml/models/*.joblib
+ml/models/*.pkl
+ml/models/*.pt
+ml/models/*.onnx
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+
+# Node / frontend
+node_modules/
+.next/
+dist/
+.turbo/
+
+# Terraform
+deployment/terraform/.terraform/
+deployment/terraform/*.tfstate
+deployment/terraform/*.tfstate.backup
+deployment/terraform/*.tfvars
+deployment/terraform/.terraform.lock.hcl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker volume data (if accidentally created locally)
+pg_data/
